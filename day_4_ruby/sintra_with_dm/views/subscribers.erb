@@ -1,0 +1,16 @@
+<h1>All Subscirbers</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Full Name</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <% @subscribers.each do |sub| %>
+    <tr>
+      <td><%= sub.full_name %></td>
+      <td><%= sub.email %></td>
+    </tr>
+  <% end %>
+</table>
