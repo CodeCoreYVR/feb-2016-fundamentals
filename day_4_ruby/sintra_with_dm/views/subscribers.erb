@@ -1,6 +1,6 @@
 <h1>All Subscirbers</h1>
 
-<table>
+<table class="table table-striped table-bordered">
   <thead>
     <tr>
       <th>Full Name</th>
@@ -9,7 +9,7 @@
   </thead>
   <% @subscribers.each do |sub| %>
     <tr>
-      <td><%= sub.full_name %></td>
+      <td class="full-name"><%= sub.full_name %></td>
       <td><%= sub.email %></td>
     </tr>
   <% end %>

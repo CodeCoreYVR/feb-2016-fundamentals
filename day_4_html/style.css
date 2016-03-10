@@ -1,0 +1,42 @@
+.box {
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.divider {
+  height: 30px;
+  clear: both;
+}
+
+.header {
+  background-color: grey;
+  min-height: 40px;
+}
+
+.left {
+  background-color: orange;
+  min-height: 400px;
+}
+.right {
+  background-color: blue;
+  min-height: 400px;
+}
+.footer {
+  background-color: grey;
+  min-height: 40px;
+}
